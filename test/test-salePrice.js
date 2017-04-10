@@ -26,7 +26,7 @@ describe('GET /salePrice/thirdParty/isbn/', () => {
       done();
     });
   });
-}).timeout(5000);
+});
 
 
 describe('GET /salePrice/suggested/isbn/', () => {
@@ -43,4 +43,4 @@ describe('GET /salePrice/suggested/isbn/', () => {
 	      done();
 	    });
 	  });
-	}).timeout(5000);
+	});
