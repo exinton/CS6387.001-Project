@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - 7
+- 7
+deploy:
+  provider: openshift
+  user: wretzloff@gmail.com
+  password:
+    secure: DhobOLcYFGeV7gGXV02oj9SJ++bY2Vb+XVcO3PHgfm+pJ6Uu3FCrfhilwk6FlAp5ydCgY9bwEYM9dzTq4NuypjOnE+cE0lOCTP14pxFUrskNN6ut62EyWvVZ6Vxb40Kxis3bA1YIrxnl6RjwPZ3DEKjVoGFDcGCM3ysAzEwSULbv6eoFPJMseNLCfcTsb1SViCXnFfKeVfwUYntA6NW3eMVQ8x0X+L953XgcPkBSzDLrcFgoMpsRY807JdzPiMb/EDzyklWixIsC+tjkdkDyD3Yz9Qji0VATbj7DZR18AoDUDoNzJxGJDURik/mvtNTaw1HwJi6ssFW9C4OMsW6ZDy1BzYqnrgUngwEJT0DnsAR8YROFKPJHiHBddEwvoq3eaPEDJ51stbolbY/U3ECmOx4iy4rUsvrBD7p+6FcJFmOq6eZxXiUathdOgV4kbrYEhqM8GJSk8xPdpboynzXffs+ZrXxvYJnrYK09Mamr4irWRUBRNCopYS5zJoavQjSiPlQbvAscXIfZ+p6Opr42PrfT8G0LgMyztnTyfkGBP3n8nAZlcCuOfrN+pAqJCIs5wcWtDPZB7jpc/5BAzqqEcbOT2NBj318NJ/jolvmfSjyUPBBD49FQYOqjBxHaBIINS+IXX77JCWeVMZ0/edePCI5OCgI1dlCNBkAM3v76Tto=
+  app: utdbookscitest
+  domain: wretzloff
+  on:
+    repo: exinton/CS6387.001-Project
